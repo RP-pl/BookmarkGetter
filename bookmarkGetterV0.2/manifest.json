@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Bookmark Getter",
+  "version": "1.1",
+  "description": "A simple bookmark button",
+  "homepage_url": "http:/XYZ.com",
+  "icons": {
+    "48": "icons/bookmark-it.png",
+    "96": "icons/bookmark-it@2x.png"
+  },
+
+  "permissions": [
+    "bookmarks",
+    "tabs",
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/star-empty-38.png",
+    "default_title": "Bookmark Getter"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+
+}
